@@ -4,7 +4,7 @@ const http = require("http");
 const server = http.createServer((req, res) => {
   res.statusCode = 200; // success
   res.setHeader("Content-Type", "text/plain");
-  res.end("New changes!\n");
+  res.end("Hello World!\n");
 });
 
 // Server listens on port 3000
